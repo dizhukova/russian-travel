@@ -1,0 +1,8 @@
+.footer {
+    max-width: 1184px;
+    margin: 0 auto 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* outline: 1px red solid; */
+}
