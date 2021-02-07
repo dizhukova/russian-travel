@@ -1,8 +1,23 @@
-.footer {
-    max-width: 1184px;
-    margin: 0 auto 24px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    /* outline: 1px red solid; */
+.footer {  
+  max-width: 1184px;
+  width: calc(100% - 96px);  
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  /* outline: 1px red solid; */
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    width: calc(100% - 48px);
+  }
+}
+  
+@media screen and (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+    width: calc(100% - 16px);
+  }
 }

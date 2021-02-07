@@ -1,10 +1,36 @@
 .place {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(460px,1fr));
-    grid-gap: 48px 40px;
-    margin-bottom: 80px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(460px,1fr));
+  grid-gap: 48px 40px;
+  margin-bottom: 80px;
+  /* outline: 1px red solid; */
 }
 
 .place:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
+
+@media screen and (max-width: 1279px) {
+  .place {
+    grid-template-columns: repeat(auto-fit, minmax(440px 1fr));
+    grid-gap: 48px 32px;
+    margin-bottom: 80px;
+  }
+}
+  
+@media screen and (max-width: 1023px) {
+  .place {
+    grid-template-columns: repeat(auto-fit, minmax(340px 1fr));
+    grid-gap: 48px 28px;
+    margin-bottom: 73px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+} /*не понимаю, откуда на этом разрешении берутся отступы между элементами, 
+если задаю margin, который по макету -32px, отступы становятся еще больше(( */

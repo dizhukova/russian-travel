@@ -1,7 +1,8 @@
 .header__lang-links {
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-    padding-left: 0;
-    list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  /* outline: 1px red solid; */
   }

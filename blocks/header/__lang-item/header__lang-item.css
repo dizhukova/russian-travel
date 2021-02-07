@@ -1,5 +1,6 @@
 .header__lang-item {
     margin-right: 18px;
+    /* outline: 1px red solid; */
 }
 
 .header__lang-item:last-child {

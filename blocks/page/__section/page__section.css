@@ -1,0 +1,16 @@
+.page__section {
+  margin-bottom: 92px;
+  /* outline: 1px red solid; */
+}
+
+@media screen and (min-width: 1023px) {
+  .page__section {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page__section {
+    margin-bottom: 64px;
+  }
+}

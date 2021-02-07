@@ -1,8 +1,13 @@
 .footer__links {
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-    padding-left: 0;
-    list-style: none;
-    /* outline: 1px red solid; */
+  display: flex;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  /* outline: 1px red solid; */
+}
+
+@media screen and (max-width: 600px) {
+  .footer__links {
+    flex-direction: column; 
+  }
 }

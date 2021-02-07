@@ -1,9 +1,22 @@
 .footer__link {
-    font-family: 'Inter', Helvetica, Arial, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 1.12;
-    color: #FFFFFF;
-    text-decoration: none;
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.12;
+  color: #FFFFFF;
+  text-decoration: none;
+  /* outline: 1px red solid; */
+}
+
+.footer__link:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+  
+@media screen and (max-width: 600px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 1;
+  }
 }
