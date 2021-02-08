@@ -8,6 +8,8 @@
   /* outline: 1px red solid; */
 }
 
+/* отступы у блока по 48px на разрешении 1024, как и у 1280... */
+
 @media screen and (max-width: 768px) {
   .footer {
     width: calc(100% - 48px);
@@ -21,3 +23,4 @@
     width: calc(100% - 16px);
   }
 }
+

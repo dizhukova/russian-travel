@@ -1,19 +1,22 @@
 .page__header {
   max-width: 1184px;
-  margin-top: 28px;
-  margin-bottom: 56px;
+  margin: 28px auto 56px;
+  /* margin-top: 28px;
+  margin-bottom: 56px; */
   /* outline: 1px red solid; */
 }
 
 @media screen and (max-width: 1279px) and (min-width: 1023px) {
   .page__header {
-    margin-bottom: 48px;
+    margin: 0 auto 48px;
+    /* margin-bottom: 48px; */
   }
 }
 
 @media screen and (max-width: 767px) {
   .page__header {
-    margin-top: 16px;
-    margin-bottom: 48px;
+    margin: 16px auto 48px;
+    /* margin-top: 16px;
+    margin-bottom: 48px; */
   }
 }

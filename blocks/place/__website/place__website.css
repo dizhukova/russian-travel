@@ -3,13 +3,13 @@
     justify-self: start;
     grid-column: 2;
     grid-row: 1;
+    margin: 0;
     /* outline: 1px red solid; */
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 600px) {
     .place__website {
         padding-left: 16px;
-        margin-top: 32px;
         margin-bottom: 32px;
     }
 }
