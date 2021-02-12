@@ -5,7 +5,7 @@
   font-size: 72px;
   line-height: 1.06;
   color: #FFFFFF;
-  outline: 1px red solid;
+  /* outline: 1px red solid; */
 }
 
 @media screen and (max-width: 1023px) {

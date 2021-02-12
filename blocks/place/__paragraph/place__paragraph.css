@@ -6,7 +6,7 @@
     font-size: 18px;
     line-height: 1.63;
     color: #FFFFFF;
-    outline: 1px red solid;
+    /* outline: 1px red solid; */
 }
 
 .place__paragraph:last-child {
