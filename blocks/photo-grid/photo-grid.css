@@ -9,23 +9,20 @@
   /* outline: 1px red solid; */
 }
 
-@media screen and (max-width: 1279px) {
+@media screen (max-width: 1279px) {
   .photo-grid {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 14px;
   }
 }
   
 @media screen and (max-width: 1023px) {
   .photo-grid {
-    grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
     width: calc(100% - 48px);
   }
 }
   
 @media screen and (max-width: 767px) {
   .photo-grid {
-    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
     grid-gap: 12px;
     width: calc(100% - 32px);
   }
